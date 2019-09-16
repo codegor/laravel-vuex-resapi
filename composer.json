@@ -1,0 +1,33 @@
+{
+	"name": "codegor/laravel-vuex-resapi",
+	"description": "A laravel part of Vuex-laravel-resource-api for web socket events.",
+	"keywords": [
+		"WS",
+		"Web socket",
+		"Echo",
+		"Vuex-laravel-resource-api",
+		"API",
+		"REST API"
+	],
+	"homepage": "https://github.com/codegor/laravel-vuex-resapi",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Egor",
+			"email": "codeegor@gmail.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=7.0",
+		"laravel/framework": "^5.6"
+	},
+	"autoload": {
+		"psr-4": {
+			"Codegor\\Resapi\\": "src"
+		}
+	},
+	"config": {
+		"sort-packages": true
+	}
+}
